@@ -1,0 +1,9 @@
+.custom-bg-color {
+  background-color: #f1f3ff;
+}
+
+@media (max-width: 768px) {
+  #offcanvas {
+    width: 50%;
+  }
+}
