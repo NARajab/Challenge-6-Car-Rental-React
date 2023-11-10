@@ -1,0 +1,155 @@
+.testimonial .title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.testimonial {
+  margin: 10px 301px;
+}
+
+.testimonial .carousel {
+  background: #f1f3ff;
+}
+
+#carousel {
+  width: 100%;
+  height: 270px;
+}
+
+.testimonial .row {
+  padding-top: 80px;
+}
+
+.testimonial .col-lg-8 {
+  margin-left: 0px;
+}
+
+.testimonial .col-2 {
+  padding: 0px;
+  padding-left: 50px;
+}
+
+.testimonial .col-8 img {
+  padding-bottom: 8px;
+}
+
+.testimonial p {
+  margin-bottom: 8px;
+  font-weight: 300px;
+  font-size: 14px;
+}
+
+.testimonial h3 {
+  font-size: 14px;
+}
+
+@media (max-width: 1330px) and (min-width: 992px) {
+  .testimonial {
+    margin: 10px 100px;
+  }
+
+  .testimonial .title {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .testimonial .img-fluid {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonial {
+    margin: 10px 100px;
+  }
+
+  .testimonial .title {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .testimonial .row {
+    padding: 0 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    margin: 10px 40px;
+    height: 100%;
+  }
+
+  .testimonial .title {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .testimonial .content {
+    padding: 30px 40px 0;
+  }
+  .testimonial .row {
+    padding: 0;
+  }
+  .testimonial .col-2 {
+    padding: 0;
+  }
+  .testimonial .col-lg-8 {
+    padding: 10px 100px;
+  }
+
+  .testimonial #stars {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .testimonial .container-lg {
+    margin: 0;
+  }
+
+  .testimonial {
+    margin: 0px;
+  }
+
+  .testimonial .title {
+    text-align: center;
+    padding-bottom: 80px;
+  }
+
+  .testimonial .carousel-inner {
+    height: 400px;
+  }
+
+  .testimonial .col-lg-8 {
+    padding: 10px 20px;
+  }
+
+  .testimonial .col-2 {
+    padding: 0px;
+    padding-left: 0px;
+  }
+
+  .testimonial .stars {
+    margin-left: 140px;
+  }
+
+  .testimonial .carousel-control-prev {
+    margin-top: -300px;
+  }
+  .testimonial .carousel-control-next {
+    margin-top: -300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonial .stars {
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 350px) {
+  .testimonial .stars {
+    margin-left: 95px;
+  }
+}

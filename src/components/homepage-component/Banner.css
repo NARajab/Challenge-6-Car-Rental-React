@@ -1,0 +1,26 @@
+.CTA-Banner .container-CTA {
+  background: #0d28a6;
+  border-radius: 13px;
+  color: white;
+  padding: 0;
+}
+
+.CTA-Banner h2 {
+  margin: 0;
+  font-weight: 700px;
+  padding-top: 64px;
+  padding-bottom: 16px;
+  flex: wrap;
+}
+
+.CTA-Banner .text-p {
+  text-align: center;
+  padding-bottom: 52px;
+  width: 300px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.CTA-Banner .text-center {
+  padding-bottom: 34px;
+}

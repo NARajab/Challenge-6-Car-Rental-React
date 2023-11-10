@@ -8,8 +8,8 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 
 function Header() {
   return (
-    <Navbar collapseOnSelect className="custom-bg-color">
-      <Container large>
+    <Navbar collapseOnSelect expand="lg" className="custom-bg-color fixed-top">
+      <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="logo" />
         </Navbar.Brand>
@@ -24,9 +24,7 @@ function Header() {
               <Nav.Link href="#why-us">Why Us</Nav.Link>
               <Nav.Link href="#testimonial">Testimonial</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
-              <Button variant="success" className="ms-3">
-                Register
-              </Button>
+              <Button className="btn btn-success me-5 ms-0">Register</Button>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

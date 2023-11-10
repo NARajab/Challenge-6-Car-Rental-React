@@ -6,4 +6,14 @@
   #offcanvas {
     width: 50%;
   }
+
+  .btn {
+    width: 180px;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn {
+    width: 120px;
+  }
 }

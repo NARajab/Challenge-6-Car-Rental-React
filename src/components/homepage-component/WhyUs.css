@@ -1,0 +1,79 @@
+.why-us .row {
+  padding-top: 40px;
+}
+
+.why-us .box {
+  padding: 24px;
+  transition: all ease-in-out 0.4s;
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  background: white;
+  height: 100%;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+}
+
+.why-us h1 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.why-us p {
+  margin: 0;
+}
+
+.why-us .featured {
+  border-top-color: #47b2e4;
+}
+
+.why-us .featured .buy-btn {
+  background: #47b2e4;
+  color: #fff;
+}
+
+.why-us .featured .buy-btn:hover {
+  background: #23a3df;
+}
+
+.why-us .box:hover {
+  transform: translateY(-10px);
+}
+
+.why-us .box:hover h4 a {
+  color: #47b2e4;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  .why-us .section-title {
+    text-align: center;
+  }
+
+  .why-us .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .why-us .section-title {
+    text-align: center;
+  }
+
+  .why-us .box {
+    max-width: 80%;
+    height: 90%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .why-us .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}

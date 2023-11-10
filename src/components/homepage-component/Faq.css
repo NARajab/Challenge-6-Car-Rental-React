@@ -1,0 +1,87 @@
+.faq .section-title h2 {
+  font-size: 24px;
+  font-weight: 700px;
+}
+
+.faq .section-title p {
+  font-size: 14px;
+  font-weight: 700px;
+}
+
+.faq .col-lg-7 {
+  padding: 0;
+}
+
+.faq .col-lg-7 ul {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .col-lg-7 li {
+  margin-bottom: 34px;
+}
+
+.faq .faq-list a {
+  color: gray;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list a.collapsed {
+  color: #000;
+  transition: 0.3s;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #000;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+#acordion .accordion-button:not(.collapsed) {
+  background-color: white;
+  border: none;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .faq .section-title {
+    text-align: center;
+  }
+
+  .faq .faq-list ul {
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 575px) {
+}

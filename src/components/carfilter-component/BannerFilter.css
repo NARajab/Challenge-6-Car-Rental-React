@@ -1,0 +1,67 @@
+.Banner-Filter {
+  margin-top: -115px;
+}
+
+.Banner-Filter .container-lg {
+  background: #ffffff;
+  width: 1150px;
+  border-radius: 13px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.Banner-Filter p {
+  color: black;
+}
+
+.Banner-Filter select {
+  border-radius: 3px;
+  padding: 9px 12px;
+}
+
+.Banner-Filter input {
+  border-radius: 3px;
+  padding: 9px 12px;
+}
+
+.Banner-Filter Button {
+  margin-top: 40px;
+  border-radius: 3px;
+  padding: 9px 12px;
+}
+
+@media (max-width: 1200px) {
+  .Banner-Filter .container-lg {
+    width: 900px;
+  }
+
+  .Banner-Filter p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .Banner-Filter .btn {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Banner-Filter .container-lg {
+    width: 600px;
+  }
+  .Banner-Filter .btn {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Banner-Filter .container-lg {
+    width: 550px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Banner-Filter .container-lg {
+    width: 350px;
+  }
+}
