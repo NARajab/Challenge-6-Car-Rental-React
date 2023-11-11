@@ -1,23 +1,13 @@
-import { useState } from "react";
 import "./BannerFilter.css";
 import Button from "react-bootstrap/esm/Button";
 
 export default function Banner({
   handleChangeDriver,
   handleChangeCapacity,
-  handleChangeavailableAt,
+  handleChangeDate,
+  handleChangeTime,
   handleSearch,
 }) {
-  const [date, setDate] = useState("");
-  const [time, setTime] = useState("");
-
-  const handleDateChange = (e) => {
-    setDate(e.target.value);
-  };
-
-  const handleTimeChange = (e) => {
-    setTime(e.target.value);
-  };
   return (
     <section className="Banner-Filter position-absolute">
       <div className="container-lg p-4 shadow-lg">
@@ -34,8 +24,7 @@ export default function Banner({
             <input
               type="date"
               name="availableAt"
-              value={date}
-              onChange={handleDateChange}
+              onChange={(e) => handleChangeDate(e.target.value)}
             />
           </div>
           <div className="col-lg-2 d-flex flex-column justify-content-center align-items-stretch">
@@ -43,8 +32,7 @@ export default function Banner({
             <input
               type="time"
               name="availableAt"
-              value={time}
-              onChange={handleTimeChange}
+              onChange={(e) => handleChangeTime(e.target.value)}
             />
           </div>
           <div className="col-lg-3 d-flex flex-column justify-content-center align-items-stretch">

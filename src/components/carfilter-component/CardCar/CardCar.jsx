@@ -2,10 +2,9 @@ import "./CardCar.css";
 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import user from "../../assets/img/users.png";
-import setting from "../../assets/img/settings.png";
-import calender from "../../assets/img/calendar.png";
-import { useEffect, useState } from "react";
+import user from "../../../assets/img/users.png";
+import setting from "../../../assets/img/settings.png";
+import calender from "../../../assets/img/calendar.png";
 
 export default function CardCar({ card }) {
   return (
@@ -34,7 +33,7 @@ export default function CardCar({ card }) {
                     <img src={calender} alt="calendar icon" />
                     <p className="ml-3 mt-2">{car.availableAt}</p>
                   </div>
-                  <Button variant="success">Pilih Mobil</Button>
+                  <Button className="btn btn-success">Pilih Mobil</Button>
                 </Card.Body>
               </Card>
             </div>

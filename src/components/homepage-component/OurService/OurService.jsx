@@ -1,5 +1,5 @@
 import "./OurService.css";
-import service from "../../assets/img/img_service.png";
+import service from "../../../assets/img/img_service.png";
 
 export default function OurService() {
   return (

@@ -1,8 +1,8 @@
 import "./WhyUs.css";
-import complete from "../../assets/img/icon_complete.png";
-import hours from "../../assets/img/icon_24hrs.png";
-import price from "../../assets/img/icon_price.png";
-import professional from "../../assets/img/icon_professional.png";
+import complete from "../../../assets/img/icon_complete.png";
+import hours from "../../../assets/img/icon_24hrs.png";
+import price from "../../../assets/img/icon_price.png";
+import professional from "../../../assets/img/icon_professional.png";
 
 export default function WhyUs() {
   return (

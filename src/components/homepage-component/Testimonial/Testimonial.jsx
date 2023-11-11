@@ -1,9 +1,9 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./Testimonial.css";
 
-import star from "../../assets/img/Star 1.png";
-import photo1 from "../../assets/img/img_photo.png";
-import photo2 from "../../assets/img/img_photo_2.png";
+import star from "../../../assets/img/Star 1.png";
+import photo1 from "../../../assets/img/img_photo.png";
+import photo2 from "../../../assets/img/img_photo_2.png";
 
 function Testimonial() {
   return (

@@ -1,7 +1,9 @@
-import "./HeroCarFilter.css";
-import car from "../../assets/img/car.png";
+import "./Hero.css";
+import car from "../../../assets/img/car.png";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
-export default function HeroCarFilter() {
+export default function Hero() {
   return (
     <section id="hero" className="d-flex align-items-center">
       <div className="container-lg" id="hero-container">
@@ -18,6 +20,9 @@ export default function HeroCarFilter() {
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.
             </h2>
+            <Button className="btn btn-success" as={Link} to={"/filter"}>
+              Mulai Sewa Mobil
+            </Button>
           </div>
           <div
             className="col-lg-6 order-2 order-lg-1 hero-img"
@@ -25,7 +30,7 @@ export default function HeroCarFilter() {
             data-aos="zoom-in"
             data-aos-delay="200"
           >
-            <img src={car} className="img-fluid" id="img-car" alt="car" />
+            <img src={car} id="img-car" alt="car" />
           </div>
         </div>
       </div>

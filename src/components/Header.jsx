@@ -1,5 +1,5 @@
-import logo from "../assets/img/logo.png";
 import "./Header.css";
+import logo from "../assets/img/logo.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -24,7 +24,9 @@ function Header() {
               <Nav.Link href="#why-us">Why Us</Nav.Link>
               <Nav.Link href="#testimonial">Testimonial</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
-              <Button className="btn btn-success me-5 ms-0">Register</Button>
+              <Button id="btn" variant="success">
+                Register
+              </Button>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

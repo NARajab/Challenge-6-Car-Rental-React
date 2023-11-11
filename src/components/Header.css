@@ -2,12 +2,19 @@
   background-color: #f1f3ff;
 }
 
+#btn {
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 @media (max-width: 768px) {
   #offcanvas {
     width: 50%;
   }
 
-  .btn {
+  #btn {
     width: 180px;
   }
 }
